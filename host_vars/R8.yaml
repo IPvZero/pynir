@@ -1,0 +1,11 @@
+---
+OSPF:
+    process: 8
+    id : 8.8.8.8
+    networks:
+      - net: 192.168.8.0
+        wildcard: 0.0.0.255
+        area: 0
+      - net: 192.168.80.0
+        wildcard: 0.0.0.255
+        area: 0
