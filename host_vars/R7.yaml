@@ -1,0 +1,11 @@
+---
+OSPF:
+    process: 7
+    id : 7.7.7.7
+    networks:
+      - net: 192.168.7.0
+        wildcard: 0.0.0.255
+        area: 0
+      - net: 192.168.70.0
+        wildcard: 0.0.0.255
+        area: 0
