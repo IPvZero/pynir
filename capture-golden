@@ -1,0 +1,2 @@
+#!/bin/bash
+pyats learn ospf --testbed-file testbed.yaml --output desired-ospf
