@@ -1,0 +1,11 @@
+---
+OSPF:
+    process: 5
+    id : 5.5.5.5
+    networks:
+      - net: 192.168.5.0
+        wildcard: 0.0.0.255
+        area: 0
+      - net: 192.168.50.0
+        wildcard: 0.0.0.255
+        area: 0
