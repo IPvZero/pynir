@@ -1,0 +1,6 @@
+---
+username: john
+password: cisco
+connection_options:
+    netmiko:
+        extras: {"fast_cli": True}
