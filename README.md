@@ -137,9 +137,6 @@ Excellent! Everything is back to the way it should be.
 
 As you can see, combining Nornir with pyATS can allow us to easily monitor and rollback our network to ensure we are compliant with our desired state of the network. As demonstrated, the largest challenge was finding a workaround to remove all undesired OSPF configurations. With modern devices with APIs, with options for candidate configurations, etc, this problem vanishes. Unfortunately, however, we still need to deal with older devices that were not built with automation in mind, and we have to create inventive and sometimes inefficient workarounds to solve a particular problem. This script is an attempt at doing that.
 
-You can download the script and all subsequent configurations at:
-[https://github.com/IPvZero/pynir](https://github.com/IPvZero/pynir)
-
 
 ### Contact Me:
 
